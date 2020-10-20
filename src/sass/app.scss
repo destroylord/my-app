@@ -1,11 +1,9 @@
-$font-stack : Helvetica, sans-serif;
-$primary-color : #282c34;
-$text-sm : 12px;
 
-body{
-    font: 100% $font-stack;
-    color: $primary-color;
-}
+// partials
+
+@use 'variable';
+
+$text-sm : 12px;
 
 nav { 
     font-size: 13px;
@@ -26,3 +24,13 @@ nav {
 .text-ww {
     font-size: $text-sm;
 }
+
+// mixin
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    trasform : $property
+}
+
+.box{ @include transform(rotate(30deg)); }
+

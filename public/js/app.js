@@ -108,14 +108,26 @@
 
 /***/ }),
 
+/***/ "./src/sass/main.scss":
+/*!****************************!*\
+  !*** ./src/sass/main.scss ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*************************************************!*\
-  !*** multi ./src/js/app.js ./src/sass/app.scss ***!
-  \*************************************************/
+/*!**********************************************************************!*\
+  !*** multi ./src/js/app.js ./src/sass/main.scss ./src/sass/app.scss ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! D:\laragon\www\my-app\src\js\app.js */"./src/js/app.js");
+__webpack_require__(/*! D:\laragon\www\my-app\src\sass\main.scss */"./src/sass/main.scss");
 module.exports = __webpack_require__(/*! D:\laragon\www\my-app\src\sass\app.scss */"./src/sass/app.scss");
 
 
